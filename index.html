@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="demo"></h1>
+     
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <label for=""> First Number :</label>
+                <input type="text" class="form-contorl my-2 " id="numb1">
+            </div>
+            <div class="col-md-4">
+                <label for=""> Opreation :</label>
+                <input type="text" class="form-contorl my-2 " id="op">
+            </div>
+            <div class="col-md-4">
+                <label for="">Second Number :</label>
+                <input type="text" class="form-contorl my-2 " id="numb2">
+            </div>
+            <div class="btn btn-info w-25 my-4 m-auto " onclick="clc()">Calculate</div>
+            
+        </div>
+        <div class="row text-center">
+            <h1>Result =  <span class="text-danger" id="demo1"></span></h1>
+        </div>
+        
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
